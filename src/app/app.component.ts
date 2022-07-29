@@ -1,5 +1,6 @@
-import { Component, VERSION } from '@angular/core';
-import { MatToolbarModule } from '@angular/material/toolbar';
+import { Component} from '@angular/core';
+import {FormControl, Validators} from '@angular/forms';
+
 
 @Component({
   selector: 'my-app',
@@ -7,5 +8,19 @@ import { MatToolbarModule } from '@angular/material/toolbar';
   styleUrls: ['./app.component.css'],
 })
 export class AppComponent {
-  name = 'Angular ' + VERSION.major;
+  email = new FormControl('', [Validators.required, Validators.email]);
+
+  getErrorMessage() {
+    if (this.email.hasError('required')) {
+      return 'You must enter a value';
+    }
+
+    return this.email.hasError('email') ? 'Not a valid email' : '';
+  }
+
+
+
+
+
 }
+
