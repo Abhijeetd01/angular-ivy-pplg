@@ -12,6 +12,7 @@ div {
 
 .mat-sidenav-container{
 background-color: lightskyblue;
+background-image: none;
 min-height: 93vh !important;
 }
 
