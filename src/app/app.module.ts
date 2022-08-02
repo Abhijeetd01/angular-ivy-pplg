@@ -42,7 +42,6 @@ const routes: Routes = [
     MatButtonModule,
     MatSidenavModule,
     MatToolbarModule,
-    BrowserAnimationsModule,
   ],
   declarations: [AppComponent, HelloComponent],
   bootstrap: [AppComponent],
