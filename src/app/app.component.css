@@ -1,28 +1,28 @@
-.companyName{
+.companyName {
   font-size: 150%;
 }
 
-.mat-toolbar{
-height: 7vh;
+.mat-toolbar {
+  height: 7vh;
 }
 
 div {
   overflow: inherit;
 }
 
-.mat-sidenav-container{
-background-color: lightskyblue;
-background-image: none;
-min-height: 93vh !important;
+.mat-sidenav-container {
+  background-color: rgb(185, 84, 163);
+  background-image: url('https://images.pexels.com/photos/1229861/pexels-photo-1229861.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+  min-height: 93vh !important;
 }
 
-a{
+a {
   text-decoration: none;
   font-size: 110%;
   white-space: normal;
 }
 
-button{
+button {
   font-size: 110%;
   min-width: min-content;
 }
@@ -35,7 +35,7 @@ button{
   flex: 1 1 auto;
 }
 
-.mat-sidenav-content{
-    font-size: 200%;
-    text-align: center;
+.mat-sidenav-content {
+  font-size: 200%;
+  text-align: center;
 }
