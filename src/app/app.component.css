@@ -1,23 +1,36 @@
-.example-form {
-  min-width: 150px;
-  max-width: 500px;
-  width: 100%;
+.companyName {
+  font-size: 150%;
+}
+.mat-toolbar {
+  height: 7vh;
+}
+div {
+  overflow: inherit;
+}
+.mat-sidenav-container {
+  background-color: rgb(183, 195, 202);
+  min-height: 93vh !important;
+}
+a {
+  text-decoration: none;
+  font-size: 110%;
+  white-space: normal;
 }
 
-.example-full-width {
-  width: 100%;
-}
-.example-container .mat-form-field + .mat-form-field {
-  margin-left: 8px;
-}
-.float-container {
-  border: 3px solid #fff;
-  padding: 20px;
+button {
+  font-size: 110%;
+  min-width: min-content;
 }
 
-.float-child {
-  width: 50%;
-  float: left;
-  padding: 20px;
-  /* border: 2px solid red; */
+.example-icon {
+  padding: 0 14px;
+}
+
+.example-spacer {
+  flex: 1 1 auto;
+}
+
+.mat-sidenav-content {
+  font-size: 200%;
+  text-align: center;
 }
