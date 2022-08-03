@@ -18,6 +18,7 @@ import { MatIconModule } from '@angular/material/icon';
 import { MatDividerModule } from '@angular/material/divider';
 import { LoginComponent } from './login/login.component';
 import {MatToolbarModule} from '@angular/material/toolbar'; 
+import { MatFormFieldModule } from '@angular/material/form-field';
 
 const routes: Routes = [
   { path: 'amazon', component: AmazonComponent },
@@ -45,6 +46,7 @@ const routes: Routes = [
     MatButtonModule,
     MatSidenavModule,
     MatCardModule,
+    MatFormFieldModule,
     MatToolbarModule,
   ],
   declarations: [AppComponent, HelloComponent],
