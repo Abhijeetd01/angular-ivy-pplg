@@ -1,7 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { RouterModule, Routes } from '@angular/router';
-import { MatToolbarModule } from '@angular/material/toolbar';
 import { AppComponent } from './app.component';
 import { HelloComponent } from './hello.component';
 import { MatInputModule } from '@angular/material/input';
@@ -17,10 +16,13 @@ import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatButtonModule } from '@angular/material/button';
 import { MatIconModule } from '@angular/material/icon';
 import { MatDividerModule } from '@angular/material/divider';
+import { LoginComponent } from './login/login.component';
+import {MatToolbarModule} from '@angular/material/toolbar'; 
 
 const routes: Routes = [
   { path: 'amazon', component: AmazonComponent },
   { path: 'google', component: GoogleComponent },
+  { path: 'login', component: LoginComponent },
 ];
 
 @NgModule({
