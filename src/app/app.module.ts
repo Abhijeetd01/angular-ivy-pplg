@@ -6,9 +6,10 @@ import { AppComponent } from './app.component';
 import { HelloComponent } from './hello.component';
 import { MatInputModule } from '@angular/material/input';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { FormsModule} from '@angular/forms';
+import { FormsModule } from '@angular/forms';
 import { MatNativeDateModule } from '@angular/material/core';
 import { HttpClientModule } from '@angular/common/http';
+import { MatCardModule } from '@angular/material/card';
 // import { FlexLayoutModule } from '@angular/flex-layout';
 import { AmazonComponent } from './amazon/amazon.component';
 import { GoogleComponent } from './google/google.component';
@@ -41,6 +42,7 @@ const routes: Routes = [
     MatIconModule,
     MatButtonModule,
     MatSidenavModule,
+    MatCardModule,
     MatToolbarModule,
   ],
   declarations: [AppComponent, HelloComponent],

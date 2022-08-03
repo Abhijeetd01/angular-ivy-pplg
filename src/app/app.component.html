@@ -17,18 +17,24 @@
       <a mat-button routerLink="/about-us">About us</a>
       <a mat-button routerLink="/start-page">Home</a>
       <a mat-button routerLink="/contact">Contact</a>
+      <a mat-button routerLink="/login">Logout</a>
     </div>
   </mat-toolbar>
   <mat-sidenav-container fxFlexFill class="example-container">
-    <mat-sidenav color="primary" #sidenav fxLayout="column" mode="over" opened="false" fxHide.gt-sm="true">
+    <mat-sidenav
+      color="primary"
+      #sidenav
+      fxLayout="column"
+      mode="over"
+      opened="false"
+      fxHide.gt-sm="true"
+    >
       <div fxLayout="column">
         <a mat-button routerLink="/prices">Prices</a>
         <a mat-button routerLink="/offer">Offer</a>
         <a mat-button routerLink="/site">Site</a>
-        <!-- <a mat-button routerlink="/amazon">Amazon</a>
-        <a mat-button routerlink="/google">Google</a> -->
       </div>
     </mat-sidenav>
-    <mat-sidenav-content fxFlexFill></mat-sidenav-content>
+    <mat-sidenav-content fxFlexFill> </mat-sidenav-content>
   </mat-sidenav-container>
 </div>
