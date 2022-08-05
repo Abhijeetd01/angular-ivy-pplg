@@ -10,6 +10,11 @@
   color: grey;
   font-size: 18px;
 }
+.card-about {
+  margin: 0 auto; /* Added */
+  float: none; /* Added */
+  margin-bottom: 10px; /* Added */
+  }
 
 button {
   border: none;
