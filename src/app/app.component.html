@@ -1,10 +1,8 @@
-<!-- <a mat-button routerlink="/amazon">Amazon</a>
-<a mat-button routerlink="/google">Google</a> -->
 <div>
   <mat-toolbar color="primary">
     <div fxShow="true" fxHide.gt-sm="true">
       <button mat-icon-button (click)="sidenav.toggle()">
-        <mat-icon><b>|||</b></mat-icon>
+        <mat-icon><b>...</b></mat-icon>
       </button>
     </div>
 
@@ -29,12 +27,14 @@
       fxHide.gt-sm="true"
     >
       <div fxLayout="column">
-        <a mat-button routerLink="/prices">Prices</a>
-        <a mat-button routerLink="/offer">Offer</a>
-        <a mat-button routerLink="/site">Site</a>
+        <a mat-button routerLink="/prices">Content 1</a>
+        <a mat-button routerLink="/offer"> Content 2</a>
+        <a mat-button routerLink="/site">Content 3</a>
       </div>
     </mat-sidenav>
-    <mat-sidenav-content fxFlexFill><div></div></mat-sidenav-content>
+    <mat-sidenav-content fxFlexFill
+      ><div class="app-home"></div
+    ></mat-sidenav-content>
   </mat-sidenav-container>
 </div>
 <router-outlet></router-outlet>

@@ -22,6 +22,8 @@ import { LogoutComponentComponent } from './logout-component/logout-component.co
 import { HomeComponent } from './home/home.component';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { ContactComponent } from './contact/contact.component';
+import { CardModule } from 'primeng/card';
+import { ButtonModule } from 'primeng/button';
 
 const routes: Routes = [
   { path: 'amazon', component: AmazonComponent },
@@ -53,6 +55,8 @@ const routes: Routes = [
     MatCardModule,
     MatFormFieldModule,
     MatToolbarModule,
+    CardModule,
+    ButtonModule,
   ],
   declarations: [AppComponent, HelloComponent],
   bootstrap: [AppComponent],

@@ -2,4 +2,6 @@
 @import '~@angular/material/prebuilt-themes/indigo-pink.css';
 body {
   margin: 0%;
+  background-image: url('https://www.agdelta.com/wp-content/uploads/2018/06/website-parallax-background-C.jpg');
+  /* min-height: 93vh !important; */
 }
