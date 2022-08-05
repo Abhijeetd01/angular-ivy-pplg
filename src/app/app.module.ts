@@ -10,8 +10,6 @@ import { MatNativeDateModule } from '@angular/material/core';
 import { HttpClientModule } from '@angular/common/http';
 import { MatCardModule } from '@angular/material/card';
 // import { FlexLayoutModule } from '@angular/flex-layout';
-import { AmazonComponent } from './amazon/amazon.component';
-import { GoogleComponent } from './google/google.component';
 import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatButtonModule } from '@angular/material/button';
 import { MatIconModule } from '@angular/material/icon';
