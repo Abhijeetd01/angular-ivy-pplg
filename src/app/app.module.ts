@@ -17,13 +17,19 @@ import { MatButtonModule } from '@angular/material/button';
 import { MatIconModule } from '@angular/material/icon';
 import { MatDividerModule } from '@angular/material/divider';
 import { LoginComponent } from './login/login.component';
-import {MatToolbarModule} from '@angular/material/toolbar'; 
 import { MatFormFieldModule } from '@angular/material/form-field';
+import { LogoutComponentComponent } from './logout-component/logout-component.component';
+import { HomeComponent } from './home/home.component';
+import { MatToolbarModule } from '@angular/material/toolbar';
+import { ContactComponent } from './contact/contact.component';
 
 const routes: Routes = [
   { path: 'amazon', component: AmazonComponent },
   { path: 'google', component: GoogleComponent },
   { path: 'login', component: LoginComponent },
+  { path: 'home', component: HomeComponent },
+  { path: 'logout', component: LogoutComponentComponent },
+  { path: 'contact', component: ContactComponent },
 ];
 
 @NgModule({
@@ -35,7 +41,6 @@ const routes: Routes = [
     BrowserModule,
     RouterModule,
     BrowserAnimationsModule,
-    MatToolbarModule,
     MatSidenavModule,
     MatButtonModule,
     MatIconModule,
