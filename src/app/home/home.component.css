@@ -11,10 +11,10 @@
   font-size: 18px;
 }
 .card-about {
-  margin: 0 auto; /* Added */
+  margin: 0 200px; /* Added */
   float: none; /* Added */
   margin-bottom: 10px; /* Added */
-  }
+}
 
 button {
   border: none;
