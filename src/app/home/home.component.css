@@ -16,6 +16,7 @@
   margin-bottom: 10px; /* Added */
   font-size: larger;
   font-family: arial;
+  background-color: rgba(46, 44, 44, 0.055);
 }
 
 button {
