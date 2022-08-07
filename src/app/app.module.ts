@@ -15,17 +15,17 @@ import { MatButtonModule } from '@angular/material/button';
 import { MatIconModule } from '@angular/material/icon';
 import { MatDividerModule } from '@angular/material/divider';
 import { MatFormFieldModule } from '@angular/material/form-field';
-import { LogoutComponentComponent } from './logout-component/logout-component.component';
 import { HomeComponent } from './home/home.component';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { ContactComponent } from './contact/contact.component';
 import { CardModule } from 'primeng/card';
 import { ButtonModule } from 'primeng/button';
+import { BlogsComponent } from './blogs/blogs.component';
 
 const routes: Routes = [
   { path: 'home', component: HomeComponent },
-  { path: 'logout', component: LogoutComponentComponent },
   { path: 'contact', component: ContactComponent },
+  { path: 'blogs', component: BlogsComponent},
 ];
 
 @NgModule({
