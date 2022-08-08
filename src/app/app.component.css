@@ -10,12 +10,6 @@ div {
   overflow: inherit;
 }
 
-.mat-sidenav-container {
-  /* background-color: rgb(185, 84, 163); */
-  /* background-image: url('https://images.pexels.com/photos/1229861/pexels-photo-1229861.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'); */
-  /* min-height: 93vh !important; */
-}
-
 a {
   text-decoration: none;
   font-size: 110%;
@@ -35,12 +29,30 @@ button {
   flex: 1 1 auto;
 }
 
-.mat-sidenav-content {
-  font-size: 200%;
-  text-align: center;
-}
-
 .span {
   background: rgba(0, 0, 0, 0);
   text-align: justify;
+}
+.example-container {
+  margin: 0;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.mat-sidenav {
+  width: 250px;
+}
+
+.sidenav-content {
+  display: flex;
+  flex-direction: column;
+}
+
+footer {
+  height: 150px;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
 }

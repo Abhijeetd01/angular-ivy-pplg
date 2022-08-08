@@ -2,40 +2,44 @@
   <mat-toolbar color="primary" class="span">
     <div fxShow="true" fxHide.gt-sm="true">
       <button mat-icon-button (click)="sidenav.toggle()">
-        <mat-icon><b>...</b></mat-icon>
+        <mat-icon
+          ><b><b>...</b></b></mat-icon
+        >
       </button>
     </div>
 
     <a mat-button class="companyName" routerLink="/home">
-      <span><a>Home</a></span>
+      <span><a></a></span>
     </a>
     <span class="example-spacer"></span>
     <div fxShow="true" fxHide.lt-md="true">
-      <a mat-button routerLink="/projects"><p>Work</p></a>
-      <a mat-button routerLink="/home"><p>Profile</p></a>
-      <a mat-button routerLink="/contact"><p>Contact</p></a>
-      <a mat-button routerLink="/blogs"><p>Social</p></a>
+      <a mat-button routerLink="/projects">
+        <p>Work</p>
+      </a>
+      <a mat-button routerLink="/home">
+        <p>Profile</p>
+      </a>
+      <a mat-button routerLink="/contact">
+        <p>Contact</p>
+      </a>
+      <a mat-button routerLink="/blogs">
+        <p>Social</p>
+      </a>
       <!-- <a mat-button routerLink="/logout">Logout</a> -->
     </div>
   </mat-toolbar>
   <mat-sidenav-container fxFlexFill class="example-container">
-    <mat-sidenav
-      color="primary"
-      #sidenav
-      fxLayout="column"
-      mode="over"
-      opened="false"
-      fxHide.gt-sm="true"
-    >
+    <mat-sidenav color="primary" #sidenav fxLayout="column" mode="over" opened="false" fxHide.gt-sm="true">
       <div fxLayout="column">
         <a mat-button routerLink="/prices">Content 1</a>
         <a mat-button routerLink="/offer"> Content 2</a>
         <a mat-button routerLink="/site">Content 3</a>
       </div>
     </mat-sidenav>
-    <mat-sidenav-content fxFlexFill
-      ><div class="app-home"></div
-    ></mat-sidenav-content>
+    <mat-sidenav-content fxFlexFill>
+      <div class="app-home"></div>
+    </mat-sidenav-content>
   </mat-sidenav-container>
 </div>
+
 <router-outlet></router-outlet>

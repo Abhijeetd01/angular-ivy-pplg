@@ -21,11 +21,13 @@ import { ContactComponent } from './contact/contact.component';
 import { CardModule } from 'primeng/card';
 import { ButtonModule } from 'primeng/button';
 import { BlogsComponent } from './blogs/blogs.component';
+import { ProjectsComponent } from './projects/projects.component';
 
 const routes: Routes = [
   { path: 'home', component: HomeComponent },
   { path: 'contact', component: ContactComponent },
   { path: 'blogs', component: BlogsComponent },
+  { path: 'projects', component: ProjectsComponent },
 ];
 
 @NgModule({
