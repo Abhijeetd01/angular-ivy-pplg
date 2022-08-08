@@ -17,5 +17,4 @@ export class AppComponent {
   //   return this.email.hasError('email') ? 'Not a valid email' : '';
   // }
   name = 'Angular 13';
-  login() {}
 }

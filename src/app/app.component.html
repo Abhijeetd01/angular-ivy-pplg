@@ -29,7 +29,14 @@
     </div>
   </mat-toolbar>
   <mat-sidenav-container fxFlexFill class="example-container">
-    <mat-sidenav color="primary" #sidenav fxLayout="column" mode="over" opened="false" fxHide.gt-sm="true">
+    <mat-sidenav
+      color="primary"
+      #sidenav
+      fxLayout="column"
+      mode="over"
+      opened="false"
+      fxHide.gt-sm="true"
+    >
       <div fxLayout="column">
         <a mat-button routerLink="/prices">Content 1</a>
         <a mat-button routerLink="/offer"> Content 2</a>
@@ -41,5 +48,5 @@
     </mat-sidenav-content>
   </mat-sidenav-container>
 </div>
-
 <router-outlet></router-outlet>
+<footer><p>Copyright:Abhijeet Das</p></footer>

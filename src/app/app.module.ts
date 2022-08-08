@@ -22,6 +22,7 @@ import { CardModule } from 'primeng/card';
 import { ButtonModule } from 'primeng/button';
 import { BlogsComponent } from './blogs/blogs.component';
 import { ProjectsComponent } from './projects/projects.component';
+import { MatBottomSheetModule } from '@angular/material/bottom-sheet';
 
 const routes: Routes = [
   { path: 'home', component: HomeComponent },
@@ -51,6 +52,7 @@ const routes: Routes = [
     MatCardModule,
     MatFormFieldModule,
     MatToolbarModule,
+    MatBottomSheetModule,
     CardModule,
     ButtonModule,
   ],
